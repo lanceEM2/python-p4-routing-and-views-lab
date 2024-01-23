@@ -2,6 +2,8 @@
 
 from flask import Flask
 
+# Ensure to run pip install --upgrade flask werkzeug in the pipenv terminal
+
 app = Flask(__name__)
 
 @app.route('/')
